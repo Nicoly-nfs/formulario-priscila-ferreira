@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Playfair+Display:wght@800&display=swap');
+
+body {
+    background-color: rgb(248, 227, 200);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.alinhado-centro {
+    text-align: center;
+}
+
+.maiusculo {
+    text-transform: uppercase
+}
+
+.sublinhado {
+    text-decoration: underline;
+}

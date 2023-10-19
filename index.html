@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário para coloração</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <h1 class="alinhado-centro maiusculo sublinhado">Formulário para coloração</h1>
+
+    <h3>Antes de realizar seu agendamento, preciso fazer algumas perguntas sobre seu cabelo, pois dependendo do que usou
+        ou esteja usando, pode ocorrer interferências na hora das mechas!<br>Vamos lá?</h3>
+
+    <form method="get" action="index.html">
+
+        <label><b>1)</b> Seu cabelo está natural ou com mechas?</label>
+
+        <br><br>
+
+        <label for="natural">Natural</label>
+        <input type="radio" name="cabelo" id="natural" value="natural">
+
+        <label for="com-mechas">Com mechas</label>
+        <input type="radio" name="cabelo" id="com-mechas" value="com-mechas">
+
+        <br><br>
+
+        <label><b>2)</b> Qual procedimento deseja realizar?</label><br><br>
+
+        <label for="loiro">Loiro</label>
+        <input id="loiro" type="checkbox" name="procedimento"><br>
+
+        <label for="loiro-dos-sonhos">Loiro dos sonhos</label>
+        <input id="loiro-dos-sonhos" type="checkbox" name="procedimento"><br>
+
+        <label for="morena-iluminada">Morena iluminada</label>
+        <input id="morena-iluminada" type="checkbox" name="procedimento"><br>
+
+        <label for="loiro-para-morena-iluminada">Loiro para morena iluminada</label>
+        <input id="loiro-para-morena-iluminada" type="checkbox" name="procedimento"><br>
+
+        <label for="morena-iluminada-para-o-loiro">Morena iluminada para o loiro</label>
+        <input id="morena-iluminada-para-o-loiro" type="checkbox" name="procedimento"><br>
+
+        <label for="correção-de-cor">Correção de cor</label>
+        <input id="correção-de-cor" type="checkbox" name="procedimento"><br>
+
+        <label for="disfarce-de-cabelos-brancos">Disfarce de cabelos brancos</label>
+        <input id="disfarce-de-cabelos-brancos" type="checkbox" name="procedimento">
+
+        <br><br>
+
+        <label for="shampoo-e-condicionador"> <b>3)</b> Qual shampoo e condicionador você utiliza?</label><br><br>
+        <input id="shampoo-e-condicionador" type="text" name="produto">
+
+        <br><br>
+
+        <label for="mascara"> <b>4)</b> E qual máscara você utiliza?</label><br><br>
+        <input id="mascara" type="text" name="produto-2">
+
+        <br><br>
+
+        <label><b>5)</b> Você fez selagem ou progressiva?</label>
+
+        <br><br>
+
+        <label for="sim">Sim</label>
+        <input id="sim" type="radio" name="selagem-ou-progressiva">
+
+        <label for="não">Não</label>
+        <input id="não" type="radio" name="selagem-ou-progressiva">
+
+        <input id="sim" type="text" name="selagem-ou-progressiva" placeholder="Se sim, há quanto tempo?">
+
+        <br><br>
+
+        <label><b>6)</b> Faz compactação capilar? (Alisamento muito forte.)</label>
+
+        <br><br>
+
+        <label for="sim-6">Sim</label>
+        <input id="sim-6" type="radio" name="compactação-capilar">
+
+        <label for="não-6">Não</label>
+        <input id="não-6" type="radio" name="compactação-capilar">
+
+        <br><br>
+
+        <label><b>7)</b> Foi na piscina há menos de 5 meses?</label>
+
+        <br><br>
+
+        <label for="sim-7">Sim</label>
+        <input id="sim-7" type="radio" name="piscina">
+
+        <label for="não-7">Não</label>
+        <input id="não-7" type="radio" name="piscina">
+
+        <br><br>
+
+        <label><b>8)</b> Você usa megahair?</label>
+
+        <br><br>
+
+        <label for="sim-8">Sim</label>
+        <input id="sim-8" type="radio" name="mega">
+
+        <label for="não-8">Não</label>
+        <input id="não-8" type="radio" name="mega">
+
+        <br><br>
+
+        <label><b>9)</b> Já usou Henê?</label>
+
+        <br><br>
+
+        <label for="sim-9">Sim</label>
+        <input id="sim-9" type="radio" name="hene">
+
+
+        <label for="não-9">Não</label>
+        <input id="não-9" type="radio" name="hene">
+
+        <br><br>
+
+        <label><b>10)</b> Seu cabelo é volumoso?</label>
+
+        <br><br>
+
+        <label for="sim-10">Sim</label>
+        <input id="sim-10" type="radio" name="volume-cabelo">
+
+        <label for="não-10">Não</label>
+        <input id="não-10" type="radio" name="volume-cabelo">
+
+        <br><br>
+
+        <label><b>11)</b> Qual tamanho do seu cabelo?</label>
+
+        <br><br>
+
+        <label for="curto">Curto</label>
+        <input id="curto" type="radio" name="tamanho">
+
+        <label for="medio">Médio</label>
+        <input id="medio" type="radio" name="tamanho">
+
+        <label for="longo">Longo</label>
+        <input id="longo" type="radio" name="tamanho">
+
+        <br><br>
+
+        <label><b>12)</b> Toma algum remédio? (Roacutam, Anti-depressivo...)</label>
+
+        <br><br>
+
+        <label for="sim-12">Sim</label>
+        <input id="sim-12" type="radio" name="remédio">
+
+        <label for="não-12">Não</label>
+        <input id="não-12" type="radio" name="remédio">
+
+        <input id="sim-12" type="text" name="remédio" placeholder="Se sim, qual?">
+
+        <br><br>
+
+        <label><b>13)</b> Faz dieta rigorosa?</label>
+
+        <br><br>
+
+        <label for="sim-13">Sim</label>
+        <input id="sim-13" type="radio" name="dieta">
+
+        <label for="não-13">Não</label>
+        <input id="não-13" type="radio" name="dieta">
+
+        <br><br>
+
+        <label><b>14)</b> Fez alguma cirurgia recente?</label>
+
+        <br><br>
+
+        <label for="sim-14">Sim</label>
+        <input id="sim-14" type="radio" name="cirurgia">
+
+        <label for="não-14">Não</label>
+        <input id="não-14" type="radio" name="cirurgia">
+
+        <input id="sim-14" type="text" name="cirurgia" placeholder="Se sim, qual?">
+
+        <br><br>
+
+        <label><b>15)</b> Na sua casa tem aquecimento solar?</label>
+
+        <br><br>
+
+        <label for="sim-15">Sim</label>
+        <input id="sim-15" type="radio" name="luz-solar">
+
+        <label for="não-15">Não</label>
+        <input id="não-15" type="radio" name="luz-solar">
+
+        <br><br>
+
+        <label><b>16)</b> Teve algum problema de saúde recente?</label>
+
+        <br><br>
+
+        <label for="sim-16">Sim</label>
+        <input id="sim-16" type="radio" name="saúde">
+
+        <label for="não-16">Não</label>
+        <input id="não-16" type="radio" name="saúde">
+
+        <br><br>
+
+        <label><b>17)</b> Teve covid?</label>
+
+        <br><br>
+
+        <label for="sim-17">Sim</label>
+        <input id="sim-17" type="radio" name="covid">
+
+        <label for="não-17">Não</label>
+        <input id="não-17" type="radio" name="covid">
+
+        <input id="sim-17" type="text" name="covid" placeholder="Se sim, há quanto tempo?">
+
+        <br><br>
+
+        <label><b>18)</b> Possui problema com tireoide?</label>
+
+        <br><br>
+
+        <label for="sim-18">Sim</label>
+        <input id="sim-18" type="radio" name="tireoide">
+
+        <label for="não-18">Não</label>
+        <input id="não-18" type="radio" name="tireoide">
+
+        <br><br>
+
+        <label><b>19)</b> Se sim, está controlada?</label>
+
+        <br><br>
+
+        <label for="sim-19">Sim</label>
+        <input id="sim-19" type="radio" name="controle-tireoide">
+
+        <label for="não-19">Não está controlada</label>
+        <input id="não-19" type="radio" name="controle-tireoide">
+
+        <br><br><br><br>
+
+
+        <input type="submit" value="Realizar agendamento.">
+
+        <h3>OBS: O horário só será agendado após as respostas de todas as perguntas.</h3>
+    </form>
+
+</body>
+
+</html>
