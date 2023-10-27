@@ -18,6 +18,16 @@
 
     <form method="get" action="index.html">
 
+        <label for="nome">Nome:</label>
+        <input id="nome" type="text" name="nome" placeholder="Digite seu nome">
+        
+        <br><br>
+
+        <label for="telefone">Telefone:</label>
+        <input id="telefone" type="text" name="telefone" placeholder="Seu número">
+
+        <br><br>
+
         <label><b>1)</b> Seu cabelo está natural ou com mechas?</label>
 
         <br><br>
@@ -261,7 +271,15 @@
         <input type="submit" value="Realizar agendamento.">
 
         <h3>OBS: O horário só será agendado após as respostas de todas as perguntas.</h3>
+
     </form>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
+
+        <script>
+            $('#telefone').mask('(00) 00000-0000');
+        </script>
 
 </body>
 
